@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/img2"
     android:padding="16dp">
-
+    <!-- UI/UX DESIGNS ADDED -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/taskTitleLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
