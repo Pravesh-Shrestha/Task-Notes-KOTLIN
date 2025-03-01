@@ -42,6 +42,7 @@ android {
     }
 }
 
+//necessary dependencies imported
 dependencies {
 
     implementation(libs.androidx.core.ktx)
