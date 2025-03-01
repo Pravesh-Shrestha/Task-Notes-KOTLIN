@@ -1,3 +1,4 @@
+//--------------------------------TASK ADAPTER/VIEW-----------------------
 package com.example.tasknotesapp.adapter
 
 import android.content.Context
