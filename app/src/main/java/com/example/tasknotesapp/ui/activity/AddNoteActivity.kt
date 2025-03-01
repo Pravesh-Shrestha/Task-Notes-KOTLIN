@@ -1,3 +1,5 @@
+//----------------------------------NOTE-SECTION----------------------------//
+
 package com.example.tasknotesapp.ui.activity
 
 import android.os.Bundle
