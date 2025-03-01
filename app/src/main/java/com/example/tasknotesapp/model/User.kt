@@ -1,3 +1,4 @@
+//-----------------------USER MODEL------------------------//
 package com.example.tasknotesapp.model
 
 data class User(
