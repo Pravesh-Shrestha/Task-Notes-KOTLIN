@@ -51,3 +51,5 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 }
+
+//------------------NAVIGATE TO LOGIN/MAIN-------------//
