@@ -49,3 +49,5 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 }
+
+//---------NAVIGATE TO MAIN------------------------
