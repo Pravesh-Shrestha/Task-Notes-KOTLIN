@@ -34,7 +34,7 @@ class RegisterActivity : AppCompatActivity() {
             finish()
         }
 
-        // Observe authentication result
+        // -------Observe authentication result------------------
         authViewModel.authResult.observe(this) { result ->
             result.fold(
                 onSuccess = { user ->
