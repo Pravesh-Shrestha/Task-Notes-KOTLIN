@@ -37,7 +37,6 @@ A modern Android application built with Kotlin, Firebase, and MVVM architecture 
 
 ## Screenshots
 
-*(Add screenshots here once you capture them)*  
 - Splash Screen  
 - Login/Register Screens  
 - Main Dashboard with Tasks and Notes  
