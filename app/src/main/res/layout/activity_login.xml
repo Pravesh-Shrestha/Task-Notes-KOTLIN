@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/img1">
 
-
+    <!-- Login Activity design -->
     <Button
         android:id="@+id/registerRedirectButton"
         android:layout_width="335dp"
