@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
         binding.addNoteFab.setOnClickListener {
             startActivity(Intent(this, AddNoteActivity::class.java))
         }
-
+//---------------TASK-MANAGEMENT-CRUD-MVVM------------------------------------------
         ItemTouchHelper(object : ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.RIGHT) {
             override fun onMove(recyclerView: RecyclerView, viewHolder: RecyclerView.ViewHolder, target: RecyclerView.ViewHolder) = false
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
