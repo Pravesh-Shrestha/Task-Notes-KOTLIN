@@ -37,7 +37,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, RegisterActivity::class.java))
             finish()
         }
-
+//----------login-AUTH LOGIC---------------------
         authViewModel.authResult.observe(this) { result ->
             result.onSuccess {
                 Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
