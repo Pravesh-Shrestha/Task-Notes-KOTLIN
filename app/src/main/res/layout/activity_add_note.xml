@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/noteTitleLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="365dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="52dp"
+        android:background="#EAD6CA"
+        android:hint="Note Title"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="@color/black"
+        app:hintTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/noteTitleEdit"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:background="#F2DCD0"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/noteContentLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="354dp"
+        android:layout_height="579dp"
+        android:layout_marginTop="16dp"
+        android:background="#EAD6CA"
+        android:hint="Note Content"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/addNoteButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noteTitleLayout"
+        app:layout_constraintVertical_bias="0.145">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/noteContentEdit"
+            android:layout_width="match_parent"
+            android:layout_height="593dp"
+            android:background="#ECD7CB"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addNoteButton"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="311dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#583666"
+        android:text="Add Note"
+        android:textColor="#EDD9CD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "184065858852",
+    "firebase_url": "https://eventmanage-5575f-default-rtdb.firebaseio.com",
+    "project_id": "eventmanage-5575f",
+    "storage_bucket": "eventmanage-5575f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184065858852:android:d24cc0bc40c660eb72e7b1",
+        "android_client_info": {
+          "package_name": "com.example.tasknotesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmsFJm0ivHzFiDv7AISc_oDgTrjpIZeBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
