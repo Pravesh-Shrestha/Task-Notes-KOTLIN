@@ -1,3 +1,4 @@
+//----------------Main FILE------------------
 package com.example.tasknotesapp.ui.activity
 
 import android.content.Intent
